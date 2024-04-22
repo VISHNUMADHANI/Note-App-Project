@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="0dp"
+        android:fontFamily="@font/alegreya"
+        android:gravity="center"
+        android:text="Update Note..."
+        android:textColor="@color/Orange"
+        android:textSize="35dp" />
+
+
+
+    <EditText
+        android:id="@+id/up_contant5"
+        android:layout_width="391dp"
+
+        android:fontFamily="@font/alegreya"
+        android:layout_height="356dp"
+        android:textColor="@color/black"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="228dp"
+        android:background="@drawable/shape1"
+        android:gravity="top"
+        android:hint="Content"
+        android:inputType="textMultiLine"
+        android:maxLines="15"
+        android:padding="5dp"
+        android:paddingLeft="7dp"
+        android:textSize="22sp"></EditText>
+
+
+
+    <EditText
+        android:id="@+id/up_title5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alegreya"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="636dp"
+        android:background="@drawable/shape1"
+        android:hint="Title"
+        android:inputType="text"
+        android:paddingLeft="7dp"
+        android:paddingRight="7dp"
+        android:textColor="@color/black"
+        android:textSize="27dp"
+        android:textStyle="bold"></EditText>
+
+    <TextView
+        android:id="@+id/de_restor"
+        android:layout_width="134dp"
+        android:fontFamily="@font/alegreya"
+        android:layout_height="38dp"
+        android:layout_alignParentEnd="true"
+        android:textColor="@color/black"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="140dp"
+        android:layout_marginBottom="150dp"
+        android:background="@drawable/forbuton"
+        android:foregroundGravity="clip_horizontal"
+        android:gravity="center|center_horizontal"
+        android:text="Update"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:id="@+id/linearcolou"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="63dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/bgcream"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/shape1" />
+
+        <ImageView
+            android:id="@+id/bgblue"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="10dp"
+
+            android:background="@drawable/shap2" />
+
+        <ImageView
+            android:id="@+id/bgpink"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="10dp"
+
+            android:background="@drawable/shappink" />
+
+        <ImageView
+            android:id="@+id/bgbrown"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="10dp"
+
+            android:background="@drawable/shapbrouwn" />
+
+        <ImageView
+            android:id="@+id/bglime"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="10dp"
+
+            android:background="@drawable/shaplime" />
+
+        <ImageView
+            android:id="@+id/bgpurpul"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/shappurple" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<rotate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fromDegrees="0"
+    android:toDegrees="90"
+    android:pivotX="50%"
+    android:pivotY="50%">
+    <shape android:shape="rectangle">
+        <!-- Define your box properties here -->
+        <stroke android:width="2dp"/>
+        <size android:width="100dp" android:height="200dp"/>
+    </shape>
+</rotate>

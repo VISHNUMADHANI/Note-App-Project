@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+    <item
+        android:id="@+id/trash"
+        android:icon="@drawable/baseline_delete_24"
+        android:title="Trash"></item>
+    <item
+        android:id="@+id/setting"
+        android:title="Setting"
+        android:icon="@drawable/baseline_settings_24"
+        ></item>
+
+    <item
+        android:id="@+id/archive"
+        android:icon="@drawable/baseline_archive_24"
+        android:title="Archive"
+        ></item>
+    <item
+        android:id="@+id/Policies"
+        android:icon="@drawable/baseline_privacy_tip_24"
+        android:title="Privacy-policy"></item>
+
+
+</menu>

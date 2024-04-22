@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relative"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:background="@drawable/shape1"
+    android:gravity="bottom|right"
+    android:paddingStart="8dp"
+    android:paddingBottom="1dp"
+    android:paddingTop="5dp"
+    android:paddingRight="0dp"
+    android:scrollbarSize="4dp">
+
+
+    <ImageView
+        android:id="@+id/v_delete"
+        android:layout_width="30dp"
+        android:layout_height="45dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="0dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:src="@drawable/baseline_delete_24"></ImageView>
+
+    <ImageView
+        android:id="@+id/v_archive"
+        android:layout_width="30dp"
+        android:layout_height="45dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="30dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:src="@drawable/baseline_archive_24"></ImageView>
+
+
+    <TextView
+        android:id="@+id/v_title"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:fontFamily="@font/alegreya"
+        android:text="Title"
+        android:textColor="@color/black"
+        android:textSize="27dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/v_content"
+        android:layout_width="371dp"
+        android:layout_height="110dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="42dp"
+        android:fontFamily="@font/alegreya"
+        android:text="Content"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:background="@drawable/shapdate"
+
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="2dp"
+        android:gravity="bottom|center_horizontal"
+        android:padding="2dp"
+        android:paddingTop="1dp"
+        android:paddingBottom="0dp"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="14dp" />
+
+
+</RelativeLayout>

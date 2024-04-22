@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="Orange">#FF8C00</color>
+    <color name="cream">#FFFDD0</color>
+    <color name="hint">#706969</color>
+    <color name="lightblue">#3CDBDE</color>
+    <color name="Lightpink">#FFD5DC</color>
+    <color name="Lighttblue">#AEFCFF</color>
+    <color name="Lightpurpul">#F1BFFF</color>
+    <color name="Lightlime">#F0FF9C</color>
+    <color name="Lightbrown">#FBD9CC</color>
+    <color name="Blue">#321C91</color>
+    <color name="dark">#CBCACB</color>
+</resources>
